@@ -9,6 +9,7 @@
     </title>
     <meta name="language" content="english">
     <meta name="description" content="{{ description | default: site.defaultDescription }}">
+    <meta name="view-transition" content="same-origin">
 
     <!-- Reassure the browser that we are mobile-friendly -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,12 +23,6 @@
     <meta property="og:title" content="{{ title }} | Stencil Punks">
     <meta property="og:description" content="{{ description | default: site.defaultDescription }}">
     <meta property="og:image" content="{{ site.url }}/assets/img/og.png">
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:description" content="{{ description }}">
-    <meta name="twitter:image" content="{{ site.url }}/assets/img/og.png">
-    <meta name="twitter:title" content="{{ title }}">
 
     <!-- Favicons -->
     <link rel="icon" href="/assets/favicon/favicon.ico">
